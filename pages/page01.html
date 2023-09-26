@@ -2,12 +2,62 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>문서이름</title>
+
   <style>
-    #myPDF {
+
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  
+    /* #myPDF {
       width: 100%;
       height: 100vh;
     }
@@ -16,14 +66,29 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-    }
+    } */
   </style>
 </head>
 
 <body>
 
   <body>
-    <iframe title="document" id="myPDF" src="/contents/sample01.pdf" frameborder="0"></iframe>
+    <!-- <iframe title="document" id="myPDF" src="/contents/sample01.pdf" frameborder="0"></iframe> -->
+
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">레벨 디자인을 시작으로 기적을 만들어 내는 기획자</h1>
+            <p class="lead text-muted">오늘도 신나는 하루를 시작해 볼까요?</p>
+            <p>
+              <a href="http://www.gamejob.co.kr/main/home" class="btn btn-primary my-2">Game Job</a>
+              <!-- <a href="https://www.nexongames.co.kr/game/blue_archive.php" class="btn btn-danger my-2">My Target</a> -->
+              <a href="https://relieved-flower-bc6.notion.site/3d06781ffe1a467295b1da1d8ad92ab6?pvs=4" class="btn btn-info my-2">My Notion</a>
+            </p>
+          </div>
+        </div>
+      </section>
   </body>
 </body>
 
